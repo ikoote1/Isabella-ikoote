@@ -1,0 +1,38 @@
+body{
+    background: rgb(146, 146, 223);
+  
+}
+#prem{
+    width: 800px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+form{
+    background-color: rgb(12, 12, 49);
+}
+#iko{
+    color: white;
+}
+p{
+    color: white;
+
+}
+h3{
+    color: white;
+
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+#pre{
+    color: white;
+}

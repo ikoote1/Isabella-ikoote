@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="servey-form.css">
+    </head>
+<body>
+    <h1 id="title"> freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+<div id="prem">
+    <form id="surver-form">
+    <h3>Name</h3>
+    <input type="text" id="name" placeholder="Enter your Name">
+    <h3>Email</h3>
+    <input type="text" id="email" pattern="[a-z0-9. _%+-]+@[a-z0-9. -]+\. [a-z]{2,}$" title="please enter valid email [test@test.com]." placeholder="Enter your Email">
+    <h3>Age (optional)</h3>
+    <input type="text" id="number" placeholder="Age">
+    <p>Which option best describes your current role?</p>
+    <select id="dropdown">
+        <option value="Current role">current role?</option>
+        <option value="student">student</option>
+        <option value="other">other</option>
+    </select>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <div id="iko">
+    <div><input type="radio" name="radioB" checked>
+        <label for="Definitely">Definitely</label></div>
+    <div><input type="radio" name="radioB">
+        <label for="Maybe">Maybe</label></div>
+    <div><input type="radio" name="radioB">
+        <label for="Not Sure">Not sure</label></div>
+    </div>
+    <p>What is your favorite feature of freeCodeCamp?</p>
+    <select id="">
+        <option value="challenges">challenges</option>
+        <option value="community">community</option>
+        <option value="open source">open source</option>
+    </select>
+    <p>What would you like to see improved? (Check all that apply)</p>
+    <div id="pre">
+    <div id="pre"><input type="checkbox" name="front" value="font-end">
+        <label for="front">front-end-projects</label></div>
+        <div><input type="checkbox" name="back" value="back-end">
+            <label for="back">back-end-projects</label></div>
+            <div><input type="checkbox" name="data" value="data-visua">
+                <label for="data">Data-visualization</label></div>
+                <div><input type="checkbox" name="chel" value="challe">
+                    <label for="chel">Challenges</label></div>
+                    <div><input type="checkbox" name="vid" value="vide">
+                        <label for="vid">Videos</label></div>
+                    </div>
+    <p>Any comments or suggestions?</p>
+    <div>
+        <textarea > Enter your comment here</textarea>
+    </div>
+    
+    <button type="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
